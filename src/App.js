@@ -1,12 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
-import AddTodo from './components/AddToDo';
-import Navbar from './pages/Navbar';
-
+import Header from './components/Header';
 function App() {
   return (
     <div>
-        <Navbar/>
+        <Header/>
     </div>
 )}
 

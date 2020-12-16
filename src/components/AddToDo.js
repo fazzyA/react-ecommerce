@@ -1,7 +1,6 @@
 import React, {useState} from 'react'
 import { v4 as uuidv4 } from 'uuid';
 import AddForm from './AddForm';
-import ButtonView from './ButtonView';
 import Todos from './Todos';
 function AddTodo() {
 
