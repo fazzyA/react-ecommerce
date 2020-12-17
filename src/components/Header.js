@@ -20,6 +20,7 @@ import Login from '../pages/Login';
 import Product from '../pages/Product';
 import Home from '../pages/Home';
 import Cart from '../pages/Cart';
+import FireAuth from './login/fireAuth';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -62,7 +63,7 @@ export default function Header() {
                     <Register />
                 </Route>
                 <Route path="/login">
-                    <Login />
+                   <FireAuth />
                 </Route>
                 <Route path="/product">
                     <Product />
